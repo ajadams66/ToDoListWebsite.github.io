@@ -1,0 +1,16 @@
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}To Do List {% endblock %}
+
+{% block content %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Task</title>
+    <h1>Add a Task</h1>
+</head>
+<body>
+{{ render_form(form) }}
+</body>
+</html>
+{% endblock %}
