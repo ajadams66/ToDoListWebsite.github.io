@@ -19,7 +19,7 @@ class Base(DeclarativeBase):
 
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///tasks_step.db"
-app.config['SECRET_KEY'] = 'tfweadegQ3TfewgwrhrhSFSF!#@$@$bsfbfbsb'
+app.config['SECRET_KEY'] = 'YOUR SECRET KEY'
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
 
